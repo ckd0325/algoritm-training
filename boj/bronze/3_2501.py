@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/2501
+
 def max(nums:list):
     num = nums[0]
     for i in nums:

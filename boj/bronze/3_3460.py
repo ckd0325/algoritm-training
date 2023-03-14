@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/3460
+
 test_count = int(input())
 
 bins = [int(input()) for _ in range(test_count)]
