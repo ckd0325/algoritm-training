@@ -28,7 +28,7 @@ int main(void) {
     }
 }
 
-int anothor_ans(void){
+int anothor_ans1(void){
 
     int n, x, a[100005];
     ios::sync_with_stdio(0);
@@ -38,4 +38,18 @@ int anothor_ans(void){
     for(int i = 0; i < n; i++) cin >> a[i];
     for(int i = 0; i<n; i++)
         if(a[i] < x) cout << a[i] << " ";
+}
+
+
+int anothor_ans2(void){
+
+    int n, x, t;
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    cin >> n >> x;
+    while(n--) {
+        cin >> x;
+        if(t < x) cout << t << ' ';
+    }
 }
