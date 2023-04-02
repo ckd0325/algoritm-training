@@ -26,6 +26,8 @@ int main(void) {
     for(int i=0; i<ans.size(); i++){
         cout << ans[i] << " ";
     }
+
+     return 0;
 }
 
 int anothor_ans1(void){
@@ -41,7 +43,7 @@ int anothor_ans1(void){
 }
 
 
-int anothor_ans2(void){
+int another_ans2(void){
 
     int n, x, t;
     ios::sync_with_stdio(0);
@@ -52,4 +54,6 @@ int anothor_ans2(void){
         cin >> x;
         if(t < x) cout << t << ' ';
     }
+    
+    return 0;
 }
