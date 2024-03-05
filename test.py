@@ -1,0 +1,1 @@
+titles = book["title"] for book in my_books

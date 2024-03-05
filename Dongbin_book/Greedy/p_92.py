@@ -33,3 +33,4 @@ def ans2():
 
     ans = (first*k + second) * iter_count + first*mod_val
     print(ans)
+
